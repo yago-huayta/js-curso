@@ -9,4 +9,8 @@ $(document).ready(function(){
      var verde = $("#verde").css("color", "green")
                          .css("background", "lightblue");
 
+//Selectores de clases 
+
+    $('.cebra')
+
 });
