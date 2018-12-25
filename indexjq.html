@@ -5,7 +5,9 @@
         <meta charset="utf-8">
 
         <title>
+            
             APRENDIENDO JQUERY
+        
         </title>
         <!--
         <script
@@ -19,18 +21,47 @@
         <script type="text/javascript" src="01-selectores.js"></script>
 
         <script>
+            
             $(document).ready(function(){
+            
                 console.log("Jquery y la pagina cargaron correctamente")
+            
             });
         </script>
+            <!--
+           
+                Se puede crear un style para hacer mas facil
+                si queremos poner el tema de css pero se 
+                pondra a una clase y luego en el otro poner 
+                funtion en la cual  se ponda 
+                $(this).addClass('nombre del que ya tiene el css')
+           
+            -->
+       
+       <style>
+          
+          .zebra{
+                border: 3px dashed black 
+            }
+        
+        </style>
 
     </head>
 
     <body>
+        
         <h1>Aprendiendo jQuery</h1>
-        <p id="rojo">Ejercicios de jquery</p>
-        <p id="amarillo" class="cebra">Practicando selectores</p>
-        <p id="verde" class="cebra">Parrafo de color verde</p>
-        <p class="cebra">ASFNAS</p>
+       
+        <p id="rojo" class="zebra">Ejercicios de JQuery >:v</p>
+       
+        <p id="amarillo" class="zebra">Soy un parrafo amarillo :)</p>
+       
+        <p id="verde" class="borde_oculto">Soy un parrado verde claro :v</p>
+       
+        <p class="zebra">Soy un parrado blanco :,v</p>
+       
+        <p class="borde_oculto">Hazme click y tendre un borde</p>
+    
     </body>
+    
 </html>
