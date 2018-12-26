@@ -33,4 +33,17 @@ $(document).ready(function(){
         
         $(this).addClass('zebra');
     });
+
+    //Selectores de etiqueta (SE selecciona a traves de una etiqueta
+    //ya sean parrafos, etc
+    //para modificar a una etiqueta en concreta)
+
+    var parrafos = $('p');
+
+    parrafos.click(function(){
+
+       $(this).removeClass("zebra"); 
+
+    });
+
 });
