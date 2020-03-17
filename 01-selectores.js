@@ -42,7 +42,11 @@ $(document).ready(function(){
 
     parrafos.click(function(){
 
-       $(this).removeClass("zebra"); 
+        if($(this).hasClass("zebra")){
+            
+            $(this).addClass("grande"); 
+
+        };
 
     });
 
