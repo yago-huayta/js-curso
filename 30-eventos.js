@@ -21,7 +21,7 @@ window.addEventListener('load', function(){
     }
     boton.addEventListener('mouseout',function(){
         boton.style.background = '#CCC';
-    });
+    });f
     
     // Focus
     var input = document.querySelector("#campo_nombre")
