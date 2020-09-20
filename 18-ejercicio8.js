@@ -25,4 +25,6 @@ var resultado = "La suma es: "+(numero1+numero2)+" <br/> "+
 
 document.write(resultado)
 
-// Prueba git hub
+// Prueba git hu
+
+//segunda prueba git (corregida)
