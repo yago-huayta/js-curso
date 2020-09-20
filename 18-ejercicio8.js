@@ -27,4 +27,3 @@ document.write(resultado)
 
 // Prueba git hu
 
-//segunda prueba git (corregida)
